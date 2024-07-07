@@ -35,3 +35,7 @@ you can CRUD the data RESTfully<br>
 To see the GUI like below, make sure download elasticsearch-head tool.<br>
 
 ![截圖 2024-07-07 下午3 55 04](https://github.com/Sparkobsecju/Ch19SpringBootUsingElasticsearchBuiltWithDocker/assets/160079818/236048f3-6d17-438f-a1b2-5c09b16be271)
+
+![截圖 2024-07-07 下午4 20 25](https://github.com/Sparkobsecju/Ch19SpringBootUsingElasticsearchBuiltWithDocker/assets/160079818/08bd0f92-40d2-4eb5-a137-7198054788ba)
+
+The examples and code snippets in this project are based on the content from the book “Spring Boot” by 孫鑫 <br>https://deepwisdom.com.tw/%e8%b3%87%e6%ba%90%e4%b8%8b%e8%bc%89/.<br> All rights to the original content belong to the author and the publisher. This project aims to provide educational content and share best practices in software development.
