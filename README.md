@@ -3,9 +3,9 @@ This is a prototype to show Spring Boot using dependency of Elasticsearch.<br>
 
 Step:<br>
 
-go to project root folder and execute<br>
+go to root folder of project and execute the instruction.<br>
   ```docker-compose up -d```<br>
-and run the spring boot project<br>
+After running the docker, you can curl to see whether the elasticsearch service opens with compose file.<br>
   ```curl localhost:9200```<br>
 
 Then you'll see the description like below.<br>
