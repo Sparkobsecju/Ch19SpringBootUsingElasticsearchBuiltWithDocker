@@ -5,7 +5,7 @@ Step:<br>
 
 go to project root folder and execute<br>
   ```docker-compose up -d```<br>
-And run the project<br>
+and run the spring boot project<br>
   ```curl localhost:9200```<br>
 
 Then you'll see the description like below.<br>
@@ -29,7 +29,7 @@ Then you'll see the description like below.<br>
 }
 ```
 <br>
-you can CRUD book RESTfully<br>
+you can CRUD the data RESTfully<br>
 
 
 To see the GUI like below, make sure download elasticsearch-head tool.<br>
