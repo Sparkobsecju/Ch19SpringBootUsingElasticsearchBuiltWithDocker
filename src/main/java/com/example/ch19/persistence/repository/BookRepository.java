@@ -16,6 +16,12 @@ public interface BookRepository extends ElasticsearchRepository<Book, String> {
      */
     List<Book> findByTitleLike(String title);
 
+    /**
+     * 使用 @Query 註釋自訂分頁查詢
+     * @param title
+     * @param pageable
+     * @return
+     */
     @Query("{\"match\": {\"title\": {\"query\": \"?0\"}}}")
     Page<Book> findByTitleCustom(String title, Pageable pageable);
 }

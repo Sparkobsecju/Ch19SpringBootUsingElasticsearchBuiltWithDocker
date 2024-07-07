@@ -32,7 +32,8 @@ public class BookController {
     @GetMapping("/{id}")
     public String getBookById(@PathVariable String id) {
         Optional<Book> bookOptional = bookRepository.findById(id);
-        return bookOptional.isPresent()? bookOptional.get().toString(): "Book Not Found（參數錯誤）";
+        return bookOptional.isPresent()?
+                bookOptional.get().toString(): "Book Not Found（參數錯誤）";
     }
 
     @PutMapping
