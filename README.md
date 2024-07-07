@@ -29,7 +29,7 @@ Then you'll see the description like below.<br>
 }
 ```
 <br>
-you can CRUD the data in RESTful way.<br>
+you can CRUD data in RESTful way.<br>
 
 
 To see the GUI like below, make sure download tools including elasticsearch-head and postman.<br>
