@@ -4,9 +4,9 @@ This is a prototype to show Spring Boot using dependency of Elasticsearch.<br>
 Step:<br>
 
 go to project root folder and execute<br>
-  ```docker-compose up -d```
+  ```docker-compose up -d```<br>
 And run the project<br>
-  ```curl localhost:9200```
+  ```curl localhost:9200```<br>
 
 Then you'll see the description like below.<br>
 ```
@@ -27,9 +27,9 @@ Then you'll see the description like below.<br>
   },
   "tagline" : "You Know, for Search"
 }
-```
+```<br>
 you can CRUD book RESTfully<br>
 
 
-To see the GUI like below, make sure download elasticsearch-head tool.
+To see the GUI like below, make sure download elasticsearch-head tool.<br>
 ![截圖 2024-07-07 下午3 55 04](https://github.com/Sparkobsecju/Ch19SpringBootUsingElasticsearchBuiltWithDocker/assets/160079818/236048f3-6d17-438f-a1b2-5c09b16be271)
