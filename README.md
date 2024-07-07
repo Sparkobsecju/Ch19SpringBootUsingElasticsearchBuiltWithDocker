@@ -1,13 +1,13 @@
-This is a prototype to show Spring Boot using dependency of Elasticsearch.
+This is a prototype to show Spring Boot using dependency of Elasticsearch.<br>
 
-Step:
+Step:<br>
 
-go to project root folder and execute\n
-  'docker-compose up -d'\n
-And run the project\n
-  'curl localhost:9200'\n
+go to project root folder and execute<br>
+  'docker-compose up -d'<br>
+And run the project<br>
+  'curl localhost:9200'<br>
 
-Then you'll see the description like below.
+Then you'll see the description like below.<br>
 
 {
   "name" : "4c6477d19f9e",
@@ -25,8 +25,7 @@ Then you'll see the description like below.
     "minimum_index_compatibility_version" : "7.0.0"
   },
   "tagline" : "You Know, for Search"
-}
-
+}<br>
 you can CRUD book RESTfully
 
 
