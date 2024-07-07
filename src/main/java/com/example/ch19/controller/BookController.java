@@ -42,7 +42,7 @@ public class BookController {
         return resultBook.toString();
     }
 
-    @DeleteMapping("{/id}")
+    @DeleteMapping("/{id}")
     public String deleteBook(@PathVariable String id) {
         bookRepository.deleteById(id);
         return "刪除成功";

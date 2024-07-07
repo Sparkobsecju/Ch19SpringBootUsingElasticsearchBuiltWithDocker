@@ -8,7 +8,7 @@
         <version>3.3.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.sun</groupId>
+    <groupId>com.example</groupId>
     <artifactId>ch19</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ch19</name>
