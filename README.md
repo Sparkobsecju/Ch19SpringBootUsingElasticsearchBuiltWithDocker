@@ -1,6 +1,14 @@
-curl localhost:9200
+This is a prototype to show Spring Boot using dependency of Elasticsearch.
 
-                                                           
+Step:
+
+go to project root folder and execute
+  docker-compose up -d
+And run the project
+  curl localhost:9200
+
+Then you'll see the description like below.
+
 {
   "name" : "4c6477d19f9e",
   "cluster_name" : "docker-cluster",
@@ -18,6 +26,8 @@ curl localhost:9200
   },
   "tagline" : "You Know, for Search"
 }
+
+you can CRUD book RESTfully
 
 
 ![截圖 2024-07-07 下午3 55 04](https://github.com/Sparkobsecju/Ch19SpringBootUsingElasticsearchBuiltWithDocker/assets/160079818/236048f3-6d17-438f-a1b2-5c09b16be271)
